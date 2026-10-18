@@ -1,0 +1,29 @@
+.wrap {
+  max-width: 560px;
+  padding: var(--sp-9) 0;
+}
+
+.eyebrow {
+  margin: 0 0 var(--sp-2);
+  color: var(--mute);
+  font-family: var(--f-mono);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.08em;
+}
+
+.title {
+  font-size: var(--fs-3xl);
+}
+
+.body {
+  margin: var(--sp-3) 0 var(--sp-5);
+  color: var(--mute);
+}
+
+.link {
+  color: var(--fg);
+  font-size: var(--fs-sm2);
+  text-decoration: underline;
+  text-decoration-color: var(--mute);
+  text-underline-offset: 3px;
+}
