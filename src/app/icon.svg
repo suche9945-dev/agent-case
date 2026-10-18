@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect width="64" height="64" fill="#E5412D" />
+  <rect width="64" height="64" fill="rgb(229, 65, 45)" />
   <g
-    fill="#FFFFFF"
+    fill="white"
     font-family="Noto Serif SC, Songti SC, SimSun, serif"
     font-size="24"
     font-weight="700"
