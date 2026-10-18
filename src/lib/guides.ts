@@ -29,6 +29,12 @@ export type Guide = {
   body: string
 }
 
+export type TocItem = {
+  id: string
+  text: string
+  level: 2 | 3
+}
+
 const GUIDES_FILE = path.join(process.cwd(), 'data', 'guides.json')
 
 let cache: Guide[] | null = null
@@ -46,4 +52,105 @@ export function listGuides(): Guide[] {
 
 export function getGuide(slug: string): Guide | null {
   return listGuides().find((guide) => guide.slug === slug) ?? null
+}
+
+/** 按 data/guides.json 的顺序取上一篇 / 下一篇。 */
+export function getAdjacentGuides(slug: string): {
+  previous: Guide | null
+  next: Guide | null
+} {
+  const guides = listGuides()
+  const index = guides.findIndex((guide) => guide.slug === slug)
+
+  if (index === -1) return { previous: null, next: null }
+
+  return {
+    previous: index > 0 ? guides[index - 1] : null,
+    next: index < guides.length - 1 ? guides[index + 1] : null,
+  }
+}
+
+/** 工具 slug → 教程 slug，供左侧目录判断哪些工具已经有教程。 */
+export function guideSlugByTool(): Record<string, string> {
+  const result: Record<string, string> = {}
+
+  for (const guide of listGuides()) {
+    if (!result[guide.tool]) result[guide.tool] = guide.slug
+  }
+
+  return result
+}
+
+/** 只统计正文里的中文字符，用来估算阅读时长，也方便核对 1500–3000 字。 */
+export function countReadableChars(body: string): number {
+  const withoutFences = body.replace(/```[\s\S]*?```/g, '')
+  const withoutTables = withoutFences
+    .split(/\r?\n/)
+    .filter((line) => !line.trim().startsWith('|'))
+    .join('\n')
+  const withoutImages = withoutTables.replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+  const plain = withoutImages
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/[#>*_`~]/g, '')
+  const matches = plain.match(/[\u3400-\u9fff]/g)
+  return matches ? matches.length : 0
+}
+
+export function readingMinutes(body: string): number {
+  return Math.max(1, Math.ceil(countReadableChars(body) / 400))
+}
+
+function stripInlineMarkdown(text: string): string {
+  return text
+    .replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/[*_~]/g, '')
+    .trim()
+}
+
+function headingId(text: string): string {
+  const base = text
+    .toLowerCase()
+    .normalize('NFKC')
+    .replace(/[^\p{L}\p{N}\s-]/gu, '')
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-+|-+$/g, '')
+
+  return base || 'section'
+}
+
+/** 从正文提取 `##` / `###`，跳过代码块，重复标题自动加序号。 */
+export function extractToc(body: string): TocItem[] {
+  const items: TocItem[] = []
+  const counts = new Map<string, number>()
+  let inFence = false
+
+  for (const line of body.split(/\r?\n/)) {
+    if (/^\s*(```|~~~)/.test(line)) {
+      inFence = !inFence
+      continue
+    }
+    if (inFence) continue
+
+    const match = /^(#{2,3})\s+(.+?)\s*#*\s*$/.exec(line)
+    if (!match) continue
+
+    const text = stripInlineMarkdown(match[2])
+    if (!text) continue
+
+    const base = headingId(text)
+    const seen = counts.get(base) ?? 0
+    counts.set(base, seen + 1)
+
+    items.push({
+      id: seen === 0 ? base : `${base}-${seen + 1}`,
+      text,
+      level: match[1].length as 2 | 3,
+    })
+  }
+
+  return items
 }
