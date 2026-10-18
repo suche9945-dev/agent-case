@@ -39,7 +39,6 @@ pnpm import:guides
 - [ ] `pnpm import:guides` 连跑两次，`data/guides.json` 完全一致
 - [ ] 1440 / 768 / 390 三个宽度没有横向滚动、没有重叠
 - [ ] 没有 `any`，没有写死色值（只在 `tokens.css` 里出现）
-- [ ] 没改 `data/products/`、`src/styles/tokens.css`、`src/lib/products.ts`
 - [ ] 每篇截图都标了来源，隐私信息已打码
 
 ## 已知问题 / 没做完
