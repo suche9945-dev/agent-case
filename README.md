@@ -41,7 +41,7 @@ Node 20.9 以上。`/guides` 现在是占位页，只证明 22 个工具的数�
 
 | 路径 | 说明 |
 |---|---|
-| `data/products/*.yaml` | 22 个工具的档案，一个文件一个工具，文件名就是 slug。**不要改** |
+| `data/products/*.yaml` | 22 个工具的档案，一个文件一个工具，文件名就是 slug。可以改，但教程里的 `tool` 要对得上 |
 | `src/lib/products.ts` | 读工具数据的现成函数（`listProducts` / `groupProducts` / `getProduct`），已经验证过 22 个文件都能解析 |
 | `src/lib/guides.ts` | 教程数据的类型和读取函数，读的是 `data/guides.json`（现在还是空数组） |
 | `src/styles/tokens.css` | 设计令牌。颜色、间距、圆角只能用这里的变量 |

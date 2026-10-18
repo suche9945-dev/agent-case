@@ -11,13 +11,12 @@
 
 ## 硬规则
 
-1. **不要改**：`data/products/*.yaml`、`src/styles/tokens.css`、`src/lib/products.ts`、教程源文件之外的数据。`src/app/layout.tsx` 只允许加导航项。
-2. 颜色、间距、圆角只用 `tokens.css` 的变量，不写死色值；组件样式写 `*.module.css`。内页是 `data-skin="paper"`（浅色），不要改回深色。
+1. `src/app/layout.tsx` 是站点外壳，尽量别重做（只加导航项）。数据、令牌、`products.ts` 想改可以改，但改完要保证 `pnpm build` 过、教程里的 `tool` 还对得上。
+2. 颜色、间距、圆角优先用 `tokens.css` 的变量；组件样式写 `*.module.css`。内页是 `data-skin="paper"`（浅色），别改回深色。
 3. TypeScript `strict`，不许 `any`。
 4. 不引 Tailwind、UI 库、外部字体、外部图片、CDN。
 5. 教程正文不许硬编码进组件，必须走 `content/guides/*.md` → `pnpm import:guides` → `data/guides.json` → 页面。
 6. 教程要自己实机跑通；配图可以用自己的、官方的、别人教程里的，但**每张都要标来源**，且至少 2 张是自己截的。不许 AI 生成假界面。
-7. 不写翻墙、代理、虚拟卡、买号、代充、接码。
 
 ## 完成标准
 
