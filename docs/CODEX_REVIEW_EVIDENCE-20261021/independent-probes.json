@@ -1,0 +1,98 @@
+[
+  {
+    "test": "missing",
+    "exit": 1,
+    "unchanged": true,
+    "stderr": "content/guides/zz-codex-review-invalid.md:tool: 缺失或类型不对，应为 string\n\n导入中止：1 处错误，data/guides.json 未改动。\n"
+  },
+  {
+    "test": "unknown",
+    "exit": 1,
+    "unchanged": true,
+    "stderr": "content/guides/zz-codex-review-invalid.md:tool: data/products/ 里没有 codex-no-tool\n\n导入中止：1 处错误，data/guides.json 未改动。\n"
+  },
+  {
+    "test": "date-format",
+    "exit": 1,
+    "unchanged": true,
+    "stderr": "content/guides/zz-codex-review-invalid.md:updatedAt: 必须是 YYYY-MM-DD，收到：2026-10-20T00:00:00\n\n导入中止：1 处错误，data/guides.json 未改动。\n"
+  },
+  {
+    "test": "date-unreal",
+    "exit": 1,
+    "unchanged": true,
+    "stderr": "content/guides/zz-codex-review-invalid.md:updatedAt: 2026-02-30 不是有效日期（YYYY-MM-DD）\n\n导入中止：1 处错误，data/guides.json 未改动。\n"
+  },
+  {
+    "test": "screenshot",
+    "exit": 1,
+    "unchanged": true,
+    "stderr": "content/guides/zz-codex-review-invalid.md:screenshots: public/guides/not-found.png 不存在\n\n导入中止：1 处错误，data/guides.json 未改动。\n"
+  },
+  {
+    "test": "wrong-type",
+    "exit": 1,
+    "unchanged": true,
+    "stderr": "content/guides/zz-codex-review-invalid.md:title: 缺失或类型不对，应为 string\n\n导入中止：1 处错误，data/guides.json 未改动。\n"
+  },
+  {
+    "test": "real-json-idempotent",
+    "exit1": 0,
+    "exit2": 0,
+    "same": true,
+    "matchesBaseline": true
+  },
+  {
+    "test": "heading-id-collision",
+    "actual": [
+      {
+        "id": "a",
+        "text": "a",
+        "level": 2
+      },
+      {
+        "id": "a-1",
+        "text": "a",
+        "level": 2
+      },
+      {
+        "id": "a-1",
+        "text": "a-1",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "test": "leading-spaces",
+    "actual": [
+      {
+        "id": "first",
+        "text": "first",
+        "level": 2
+      },
+      {
+        "id": "last",
+        "text": "last",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "test": "verify-import-intentional-fail",
+    "exit": 1,
+    "hasFail": true,
+    "summary": [
+      "共 36 项，通过 35 项，失败 1 项"
+    ],
+    "stderr": "content/guides/a-bad-tool.md:tool: data/products/ 里没有 not-a-real-tool\ncontent/guides/b-bad-title.md:title: 长度 2 字，要求 10–40 字（不含空白）\ncontent/guides/c-bad-summary.md:summary: 长度 3 字，要求 40–80 字（不含空白）\ncontent/guides/d-bad-date.md:updatedAt: 必须是 YYYY-MM-DD，收到：2026/10/20\ncontent/guides/e-bad-url.md:sourceUrls.0: 不是合法的 http(s) URL：ftp://a.com\ncontent/guides/e-bad-url.md:sourceUrls.1: 不是合法的 http(s) URL：not-a-url\ncontent/guides/f-bad-shot.md:screenshots: 路径越过了 public/ 目录边界\ncontent/guides/f-bad-shot.md:screenshots: public/guides/none.png 不存在\ncontent/guides/g-no-frontmatter.md:frontmatter: 第一行必须是独占一行的 ---（frontmatter 开始）\ncontent/guides/h-bad-yaml.md:frontmatter: YAML 解析失败：Flow sequence in block collection must be sufficiently indented and end with a ] at line 1, column 12:\n\ntitle: [未闭合\n           ^\n\ncontent/guides/i-missing-field.md:tool: 缺失或类型不对，应为 string\ncontent/guides/i-missing-field.md:summary: 缺失或类型不对，应为 string\ncontent/guides/i-missing-field.md:updatedAt: 缺失或类型不对，应为 string\ncontent/guides/i-missing-field.md:sourceUrls: 缺失或类型不对，应为 string[]\ncontent/guides/j-few-sources.md:sourceUrls: 至少给 3 条\n\n导入中止：15 处错误，data/guides.json 未改动。\n"
+  },
+  {
+    "test": "verify-headings-intentional-fail",
+    "exit": 1,
+    "hasFail": true,
+    "summary": [
+      "共 15 项，通过 14 项，失败 1 项"
+    ],
+    "stderr": ""
+  }
+]

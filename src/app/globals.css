@@ -19,8 +19,9 @@ body {
 }
 
 html {
-  /* 锚点跳转时给顶部固定栏留出位置 */
+  /* 锚点跳转时给顶部固定栏留出位置，并让右目录点击平滑滚动 */
   scroll-padding-top: 88px;
+  scroll-behavior: smooth;
 }
 
 body {

@@ -1,0 +1,4 @@
+隔离目录复制 package.json / pnpm-lock.yaml；未使用原工作区 node_modules。
+corepack pnpm install --offline --frozen-lockfile：首次沙箱 EPERM（symlink）；宿主重试退出 0，130 packages，reused 130，downloaded 0，pnpm 10.33.0。
+corepack pnpm install --frozen-lockfile：退出 0，Already up to date。
+这证明当前机器与缓存可全新安装；未验证无缓存下载和另一台机器。

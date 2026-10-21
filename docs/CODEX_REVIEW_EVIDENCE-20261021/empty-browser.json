@@ -1,0 +1,6 @@
+{
+  "articleLinks": 0,
+  "asideLinks": 0,
+  "disabled": 22,
+  "text": "全部工具22 个工具 ▾工具目录22 个编程工具（14）▸Claude Code教程整理中Codex教程整理中Cursor教程整理中DeepSeek Harness教程整理中GitHub Copilot教程整理中Google Antigravity教程整理中Kimi Code教程整理中MiMo Code教程整理中MiniMax Code教程整理中OpenCode教程整理中Pi教程整理中Qoder教程整理中TRAE教程整理中ZCode教程整理中图像与视频（5）▸即梦AI教程整理中可灵AI（Kling AI）教程整理中小云雀教程整理中LibTV教程整理中Midjourney教程整理中办公 Agent（3）▸豆包工作教程整理中千问办公教程整理中WorkBuddy教程整理中22 个工具来自站内档案；灰色的是还没有教程的。叁 · 22 个工具 · 教程整理中工具指南已经决定要用某个工具，然后呢？在哪下载、怎么登录、第一个任务怎么跑、卡住了怎么办—— 这里把每一步写到你照着做完为止。怎么看这份指南4 条01先看能不能用每篇开头都写清官方的支持地区、账号和支付方式。国内用不了的工具，会直接标「官方国内不可用」，不绕弯子。02再看怎么装桌面版、命令行、IDE 插件分开写。命令只抄官方文档，并标出核对时的版本和日期。03照着跑第一个任务每一步都写「点哪里、输入什么、看到什么」，不写「按提示操作即可」。04卡住了看常见问题每条坑都按「现象 → 原因 → 怎么办」写，能对上你屏幕上的报错。全部教程0 篇教程正在整理源文件在 content/guides/，跑一次 pnpm import:guides 就会出现在这里。全部工具22 个，按三类分组编程工具（14）Claude Code国内不可用Codex国内不可用Cursor国内不可用DeepSeek Harness国内可用GitHub Copilot国内不可用Google Antigravity国内不可用Kimi Code国内可用MiMo Code国内可用MiniMax Code国内可用OpenCode国内可用Pi国内可用Qoder国内可用TRAE国内可用ZCode国内可用图像与视频（5）即梦AI国内可用可灵AI（Kling AI）国内可用小云雀国内可用LibTV国内可用Midjourney国内不可用办公 Agent（3）豆包工作国内可用千问办公国内可用WorkBuddy国内可用本页目录怎么看这份指南全部教程全部工具"
+}

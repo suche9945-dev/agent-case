@@ -1,0 +1,69 @@
+PASS  函数级：大小写不同的重复 slug 能识别
+PASS  函数级：不同 slug 不误报
+PASS  frontmatter：BOM + CRLF 能解析
+PASS  frontmatter：缺少结束标记报错
+PASS  frontmatter：第一行不是 --- 报错
+PASS  frontmatter：正文里的 --- 不会被当结束标记
+PASS  frontmatter：结束标记必须独占一行
+PASS  路径：拒绝 .. 目录穿越
+PASS  路径：拒绝 Windows 反斜杠穿越
+PASS  路径：拒绝同前缀目录
+PASS  路径：拒绝目录当文件
+PASS  路径：接受真实存在的文件
+PASS  路径：不存在的文件报错
+PASS  集成：校验失败返回 ok=false  → errors=15
+PASS  集成：失败时不写输出文件
+PASS  集成：真实 data/guides.json 未被改动
+PASS  报错内容：工具不存在
+PASS  报错内容：标题长度
+PASS  报错内容：摘要长度
+PASS  报错内容：日期格式
+PASS  报错内容：来源 URL 格式
+PASS  报错内容：来源数量不足
+PASS  报错内容：截图越界
+PASS  报错内容：截图不存在
+PASS  报错内容：缺少 frontmatter
+PASS  报错内容：YAML 解析失败
+PASS  报错内容：缺少必填字段
+PASS  集成：错误文件都被报到  → 10 个文件
+
+content/guides/a-bad-tool.md:tool: data/products/ 里没有 not-a-real-tool
+content/guides/b-bad-title.md:title: 长度 2 字，要求 10–40 字（不含空白）
+content/guides/c-bad-summary.md:summary: 长度 3 字，要求 40–80 字（不含空白）
+content/guides/d-bad-date.md:updatedAt: 必须是 YYYY-MM-DD，收到：2026/10/20
+content/guides/e-bad-url.md:sourceUrls.0: 不是合法的 http(s) URL：ftp://a.com
+content/guides/e-bad-url.md:sourceUrls.1: 不是合法的 http(s) URL：not-a-url
+content/guides/f-bad-shot.md:screenshots: 路径越过了 public/ 目录边界
+content/guides/f-bad-shot.md:screenshots: public/guides/none.png 不存在
+content/guides/g-no-frontmatter.md:frontmatter: 第一行必须是独占一行的 ---（frontmatter 开始）
+content/guides/h-bad-yaml.md:frontmatter: YAML 解析失败：Flow sequence in block collection must be sufficiently indented and end with a ] at line 1, column 12:
+
+title: [未闭合
+           ^
+
+content/guides/i-missing-field.md:tool: 缺失或类型不对，应为 string
+content/guides/i-missing-field.md:summary: 缺失或类型不对，应为 string
+content/guides/i-missing-field.md:updatedAt: 缺失或类型不对，应为 string
+content/guides/i-missing-field.md:sourceUrls: 缺失或类型不对，应为 string[]
+content/guides/j-few-sources.md:sourceUrls: 至少给 3 条
+
+导入中止：15 处错误，data/guides.json 未改动。
+node:fs:1013
+  binding.rename(
+          ^
+
+Error: EPERM: operation not permitted, rename 'C:\Users\CHEN\AppData\Local\Packages\sandbox.{1bce0a22-9ac5-4784-a953-635f0f8ca587}\AC\Temp\agent-case-import-ouAGLO\out.json.tmp' -> 'C:\Users\CHEN\AppData\Local\Packages\sandbox.{1bce0a22-9ac5-4784-a953-635f0f8ca587}\AC\Temp\agent-case-import-ouAGLO\out.json'
+    at Object.renameSync (node:fs:1013:11)
+    at writeAtomic (file:///D:/agent%E9%A1%B9%E7%9B%AE%E5%8A%A9%E7%90%86/agent-case/scripts/import-guides.mjs:187:8)
+    at main (file:///D:/agent%E9%A1%B9%E7%9B%AE%E5%8A%A9%E7%90%86/agent-case/scripts/import-guides.mjs:326:3)
+    at file:///D:/agent%E9%A1%B9%E7%9B%AE%E5%8A%A9%E7%90%86/agent-case/scripts/verify-import.mjs:134:13 {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'rename',
+  path: 'C:\\Users\\CHEN\\AppData\\Local\\Packages\\sandbox.{1bce0a22-9ac5-4784-a953-635f0f8ca587}\\AC\\Temp\\agent-case-import-ouAGLO\\out.json.tmp',
+  dest: 'C:\\Users\\CHEN\\AppData\\Local\\Packages\\sandbox.{1bce0a22-9ac5-4784-a953-635f0f8ca587}\\AC\\Temp\\agent-case-import-ouAGLO\\out.json'
+}
+
+Node.js v24.16.0
+
+EXIT=1

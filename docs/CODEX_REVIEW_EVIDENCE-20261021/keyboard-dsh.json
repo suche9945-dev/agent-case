@@ -1,0 +1,422 @@
+[
+  {
+    "href": "/guides",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "天工开物天工开物KAIWU AI"
+  },
+  {
+    "href": "/guides",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "工具"
+  },
+  {
+    "href": null,
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "BUTTON",
+    "text": "编程工具（14）▸"
+  },
+  {
+    "href": "/guides/cursor-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "Cursor"
+  },
+  {
+    "href": "/guides/deepseek-harness-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "DeepSeek Harness"
+  },
+  {
+    "href": "/guides/trae-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "TRAE"
+  },
+  {
+    "href": null,
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "BUTTON",
+    "text": "图像与视频（5）▸"
+  },
+  {
+    "href": "/guides/jimeng-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "即梦AI"
+  },
+  {
+    "href": "/guides/kling-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "可灵AI（Kling AI）"
+  },
+  {
+    "href": null,
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "BUTTON",
+    "text": "办公 Agent（3）▸"
+  },
+  {
+    "href": "https://www.deepseek.com/harness",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "官网 ↗"
+  },
+  {
+    "href": "https://www.deepseek.com/download/",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "https://www.deepseek.com/download/"
+  },
+  {
+    "href": "https://platform.deepseek.com/",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "https://platform.deepseek.com/"
+  },
+  {
+    "href": "https://api-docs.deepseek.com/quick_start/pricing",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "https://api-docs.deepseek.com/quick_start/pricing"
+  },
+  {
+    "href": "https://www.deepseek.com/harness",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "https://www.deepseek.com/harness"
+  },
+  {
+    "href": "https://www.deepseek.com/download/",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "https://www.deepseek.com/download/"
+  },
+  {
+    "href": "https://github.com/deepseek-ai/deepseek-harness",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "https://github.com/deepseek-ai/deepseek-harness"
+  },
+  {
+    "href": "https://deepseek-harness.github.io/deepseek-harness/",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "https://deepseek-harness.github.io/deepseek-harness/"
+  },
+  {
+    "href": "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/index.zh.md",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/"
+  },
+  {
+    "href": "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/providers.zh.md",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/"
+  },
+  {
+    "href": "/guides/cursor-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "← 上一篇Cursor 上手教程：装好、登录、跑通第一个任务"
+  },
+  {
+    "href": "/guides/jimeng-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "下一篇 →即梦AI 新手教程：从登录到生成第一张图和第一段视频"
+  },
+  {
+    "href": "/guides",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "← 返回全部工具"
+  },
+  {
+    "href": "/guides/cursor-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "Cursor · 编程工具Cursor 上手教程：装好、登录、跑通第一个任务给第一次用 Cursor 的人：从官网下载到让它改好第一个文件，"
+  },
+  {
+    "href": "/guides/jimeng-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "即梦AI · 图像与视频即梦AI 新手教程：从登录到生成第一张图和第一段视频网页就能用的国产图像视频工具：登录、写提示词、生成第一张图，再把"
+  },
+  {
+    "href": "#它能做什么",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "它能做什么"
+  },
+  {
+    "href": "#国内怎么用",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "国内怎么用"
+  },
+  {
+    "href": "#安装",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "安装"
+  },
+  {
+    "href": "#桌面版",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "桌面版"
+  },
+  {
+    "href": "#命令行版",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "命令行版"
+  },
+  {
+    "href": "#从源码跑-可跳过",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "从源码跑（可跳过）"
+  },
+  {
+    "href": "#登录与开通",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "登录与开通"
+  },
+  {
+    "href": "#第一步-拿-deepseek-api-密钥",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "第一步：拿 DeepSeek API 密钥"
+  },
+  {
+    "href": "#第二步-填进-harness",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "第二步：填进 Harness"
+  },
+  {
+    "href": "#跑通第一个任务",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "跑通第一个任务"
+  },
+  {
+    "href": "#1-选工作区",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "1. 选工作区"
+  },
+  {
+    "href": "#2-先让它读-不让它写",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "2. 先让它读，不让它写"
+  },
+  {
+    "href": "#3-让它改一个文件",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "3. 让它改一个文件"
+  },
+  {
+    "href": "#4-验收",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "4. 验收"
+  },
+  {
+    "href": "#接入自己的模型-api-key",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "接入自己的模型 / API Key"
+  },
+  {
+    "href": "#用目录里的第三方厂商",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "用目录里的第三方厂商"
+  },
+  {
+    "href": "#接自定义网关-本地模型",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "接自定义网关 / 本地模型"
+  },
+  {
+    "href": "#怎么付费",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "怎么付费"
+  },
+  {
+    "href": "#常见问题",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "常见问题"
+  },
+  {
+    "href": "#延伸阅读",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "延伸阅读"
+  },
+  {
+    "href": null,
+    "outline": "none",
+    "outlineWidth": "2.30769px",
+    "tag": "BODY",
+    "text": "天工开物天工开物KAIWU AI共创模型工具比赛全部工具DeepSeek Harness ▾工具目录22 个编程工具（14）▸Claude "
+  },
+  {
+    "href": "/guides",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "天工开物天工开物KAIWU AI"
+  },
+  {
+    "href": "/guides",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "工具"
+  },
+  {
+    "href": null,
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "BUTTON",
+    "text": "编程工具（14）▸"
+  },
+  {
+    "href": "/guides/cursor-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "Cursor"
+  },
+  {
+    "href": "/guides/deepseek-harness-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "DeepSeek Harness"
+  },
+  {
+    "href": "/guides/trae-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "TRAE"
+  },
+  {
+    "href": null,
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "BUTTON",
+    "text": "图像与视频（5）▸"
+  },
+  {
+    "href": "/guides/jimeng-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "即梦AI"
+  },
+  {
+    "href": "/guides/kling-guide",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "可灵AI（Kling AI）"
+  },
+  {
+    "href": null,
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "BUTTON",
+    "text": "办公 Agent（3）▸"
+  },
+  {
+    "href": "https://www.deepseek.com/harness",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "官网 ↗"
+  },
+  {
+    "href": "https://www.deepseek.com/download/",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "https://www.deepseek.com/download/"
+  },
+  {
+    "href": "https://platform.deepseek.com/",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "https://platform.deepseek.com/"
+  },
+  {
+    "href": "https://api-docs.deepseek.com/quick_start/pricing",
+    "outline": "solid",
+    "outlineWidth": "1.53846px",
+    "tag": "A",
+    "text": "https://api-docs.deepseek.com/quick_start/pricing"
+  }
+]

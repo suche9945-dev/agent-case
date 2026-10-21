@@ -1,0 +1,194 @@
+[
+  {
+    "href": "/guides",
+    "outline": "solid",
+    "tag": "A",
+    "text": "天工开物天工开物KAIWU AI"
+  },
+  {
+    "href": "/guides",
+    "outline": "solid",
+    "tag": "A",
+    "text": "工具"
+  },
+  {
+    "href": null,
+    "outline": "solid",
+    "tag": "BUTTON",
+    "text": "编程工具（14）▸"
+  },
+  {
+    "href": "/guides/cursor-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "Cursor"
+  },
+  {
+    "href": "/guides/deepseek-harness-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "DeepSeek Harness"
+  },
+  {
+    "href": "/guides/trae-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "TRAE"
+  },
+  {
+    "href": null,
+    "outline": "solid",
+    "tag": "BUTTON",
+    "text": "图像与视频（5）▸"
+  },
+  {
+    "href": "/guides/jimeng-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "即梦AI"
+  },
+  {
+    "href": "/guides/kling-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "可灵AI（Kling AI）"
+  },
+  {
+    "href": null,
+    "outline": "solid",
+    "tag": "BUTTON",
+    "text": "办公 Agent（3）▸"
+  },
+  {
+    "href": "/guides/cursor-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "Cursor · 编程工具Cursor 上手教程：装好、登录、跑通第一个任务给第一次用 Cursor 的人：从官网下载到让它改好第"
+  },
+  {
+    "href": "/guides/deepseek-harness-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "DeepSeek Harness · 编程工具DeepSeek Harness 上手：装好、接上模型、跑通第一个任务DeepSee"
+  },
+  {
+    "href": "/guides/jimeng-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "即梦AI · 图像与视频即梦AI 新手教程：从登录到生成第一张图和第一段视频网页就能用的国产图像视频工具：登录、写提示词、生成第一"
+  },
+  {
+    "href": "/guides/kling-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "可灵AI（Kling AI） · 图像与视频可灵AI 上手：注册、文生视频、图生视频各跑一遍国产视频生成工具的上手路径：手机号注册"
+  },
+  {
+    "href": "/guides/trae-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "TRAE · 编程工具TRAE 国内版上手：下载、登录、跑通第一个项目用国内手机号就能注册的 AI 开发工具，从官网下载到让它在工"
+  },
+  {
+    "href": "/guides/cursor-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "Cursor"
+  },
+  {
+    "href": "/guides/deepseek-harness-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "DeepSeek Harness"
+  },
+  {
+    "href": "/guides/trae-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "TRAE"
+  },
+  {
+    "href": "/guides/jimeng-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "即梦AI"
+  },
+  {
+    "href": "/guides/kling-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "可灵AI（Kling AI）"
+  },
+  {
+    "href": "/guides/cursor-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "Cursor · 编程工具Cursor 上手教程：装好、登录、跑通第一个任务给第一次用 Cursor 的人：从官网下载到让它改好第"
+  },
+  {
+    "href": "/guides/deepseek-harness-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "DeepSeek Harness · 编程工具DeepSeek Harness 上手：装好、接上模型、跑通第一个任务DeepSee"
+  },
+  {
+    "href": "/guides/jimeng-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "即梦AI · 图像与视频即梦AI 新手教程：从登录到生成第一张图和第一段视频网页就能用的国产图像视频工具：登录、写提示词、生成第一"
+  },
+  {
+    "href": "#how-to-read",
+    "outline": "solid",
+    "tag": "A",
+    "text": "怎么看这份指南"
+  },
+  {
+    "href": "#all-guides",
+    "outline": "solid",
+    "tag": "A",
+    "text": "全部教程"
+  },
+  {
+    "href": "#all-tools",
+    "outline": "solid",
+    "tag": "A",
+    "text": "全部工具"
+  },
+  {
+    "href": "#start-here",
+    "outline": "solid",
+    "tag": "A",
+    "text": "新手先读这三篇"
+  },
+  {
+    "href": null,
+    "outline": "none",
+    "tag": "BODY",
+    "text": "天工开物天工开物KAIWU AI共创模型工具比赛全部工具22 个工具 ▾工具目录22 个编程工具（14）▸Claude Code教"
+  },
+  {
+    "href": "/guides",
+    "outline": "solid",
+    "tag": "A",
+    "text": "天工开物天工开物KAIWU AI"
+  },
+  {
+    "href": "/guides",
+    "outline": "solid",
+    "tag": "A",
+    "text": "工具"
+  },
+  {
+    "href": null,
+    "outline": "solid",
+    "tag": "BUTTON",
+    "text": "编程工具（14）▸"
+  },
+  {
+    "href": "/guides/cursor-guide",
+    "outline": "solid",
+    "tag": "A",
+    "text": "Cursor"
+  }
+]

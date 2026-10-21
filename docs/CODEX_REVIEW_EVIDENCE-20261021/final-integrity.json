@@ -1,0 +1,13 @@
+{
+  "time": "2026-10-21T03:40:27.104Z",
+  "originalFiles": 194,
+  "changedOriginal": [],
+  "unexpectedAdded": [],
+  "reportAndEvidenceAdded": 71,
+  "branch": "intern/chen",
+  "head": "9b130ec8aa0b69ff5f642908f337ed9adc8bae89",
+  "staged": "",
+  "guidesHash": "fd3180a82ca3a8a0e0683ed561492df514ba8c413874133f77ec2e61e7698b2d",
+  "fixtureAbsent": true,
+  "tmpAbsent": true
+}

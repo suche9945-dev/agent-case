@@ -1,0 +1,58 @@
+ M DELIVERY.md
+ M content/guides/cursor-guide.md
+ M content/guides/deepseek-harness-guide.md
+ M content/guides/jimeng-guide.md
+ M content/guides/kling-guide.md
+ M content/guides/trae-guide.md
+ M data/guides.json
+ M data/products/cursor.yaml
+ M data/products/deepseek-harness.yaml
+ M data/products/jimeng.yaml
+ M data/products/kling.yaml
+ M data/products/trae.yaml
+ M package.json
+ M pnpm-lock.yaml
+ M scripts/import-guides.mjs
+ M src/app/guides/[slug]/page.tsx
+ M src/components/guides/Markdown.tsx
+ M src/components/guides/guides.module.css
+ M src/lib/headings.ts
+?? docs/早晨检查清单-2026-10-21.md
+?? docs/来源与截图台账-2026-10-21.md
+?? docs/验收截图-2026-10-21/cursor-guide-1440.png
+?? docs/验收截图-2026-10-21/deepseek-harness-guide-390.png
+?? docs/验收截图-2026-10-21/overview-1440.png
+?? docs/验收截图-2026-10-21/overview-390.png
+?? docs/验收记录-2026-10-21.md
+?? public/guides/cursor-guide/01-download.png
+?? public/guides/cursor-guide/02-quickstart.png
+?? public/guides/cursor-guide/03-pricing.png
+?? public/guides/cursor-guide/04-api-keys.png
+?? public/guides/cursor-guide/05-cli.png
+?? public/guides/cursor-guide/06-agent.png
+?? public/guides/deepseek-harness-guide/01-homepage.png
+?? public/guides/deepseek-harness-guide/02-download.png
+?? public/guides/deepseek-harness-guide/03-github.png
+?? public/guides/deepseek-harness-guide/04-models-page.png
+?? public/guides/deepseek-harness-guide/05-custom-model.png
+?? public/guides/deepseek-harness-guide/06-desktop.webp
+?? public/guides/jimeng-guide/01-home.png
+?? public/guides/jimeng-guide/02-ai-tool-home.png
+?? public/guides/jimeng-guide/03-pricing.png
+?? public/guides/jimeng-guide/04-seedance-2-5.png
+?? public/guides/jimeng-guide/05-login.png
+?? public/guides/jimeng-guide/06-image-tool.png
+?? public/guides/kling-guide/01-home.png
+?? public/guides/kling-guide/02-membership.png
+?? public/guides/kling-guide/03-help.png
+?? public/guides/kling-guide/04-dev.png
+?? public/guides/kling-guide/05-app.png
+?? public/guides/kling-guide/06-dev-pricing.png
+?? public/guides/trae-guide/01-home.png
+?? public/guides/trae-guide/02-download.png
+?? public/guides/trae-guide/03-quick-start.png
+?? public/guides/trae-guide/04-pricing.png
+?? public/guides/trae-guide/05-models.png
+?? public/guides/trae-guide/06-cli.png
+?? scripts/verify-headings.mjs
+?? scripts/verify-import.mjs

@@ -1,0 +1,62 @@
+{
+  "captions": 1,
+  "code": "## fence fake\n",
+  "headings": [
+    {
+      "id": "first",
+      "text": "first"
+    },
+    {
+      "id": "last",
+      "text": "indented"
+    },
+    {
+      "id": "a",
+      "text": "last"
+    },
+    {
+      "id": "a-1",
+      "text": "a"
+    },
+    {
+      "id": "a-1",
+      "text": "a"
+    },
+    {
+      "id": "",
+      "text": "a-1"
+    },
+    {
+      "id": "",
+      "text": "其他教程"
+    }
+  ],
+  "tables": 1,
+  "toc": [
+    {
+      "href": "#first",
+      "target": "first",
+      "text": "first"
+    },
+    {
+      "href": "#last",
+      "target": "indented",
+      "text": "last"
+    },
+    {
+      "href": "#a",
+      "target": "last",
+      "text": "a"
+    },
+    {
+      "href": "#a-1",
+      "target": "a",
+      "text": "a"
+    },
+    {
+      "href": "#a-1",
+      "target": "a",
+      "text": "a-1"
+    }
+  ]
+}

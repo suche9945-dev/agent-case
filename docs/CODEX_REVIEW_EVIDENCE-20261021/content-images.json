@@ -1,0 +1,256 @@
+[
+  {
+    "slug": "cursor-guide",
+    "hanChars": 1766,
+    "sourceUrls": [
+      "https://cursor.com/docs/get-started/quickstart",
+      "https://cursor.com/download",
+      "https://cursor.com/pricing",
+      "https://cursor.com/docs/models-and-pricing",
+      "https://cursor.com/docs/agent/overview",
+      "https://cursor.com/help/models-and-usage/api-keys",
+      "https://cursor.com/docs/cli/installation",
+      "https://cursor.com/docs/account/regions"
+    ],
+    "images": [
+      {
+        "file": "/guides/cursor-guide/01-download.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 200807
+      },
+      {
+        "file": "/guides/cursor-guide/02-quickstart.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 120092
+      },
+      {
+        "file": "/guides/cursor-guide/03-pricing.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 91633
+      },
+      {
+        "file": "/guides/cursor-guide/04-api-keys.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 133957
+      },
+      {
+        "file": "/guides/cursor-guide/05-cli.png",
+        "width": 1440,
+        "height": 1000,
+        "bytes": 110835
+      },
+      {
+        "file": "/guides/cursor-guide/06-agent.png",
+        "width": 1440,
+        "height": 1000,
+        "bytes": 348031
+      }
+    ]
+  },
+  {
+    "slug": "deepseek-harness-guide",
+    "hanChars": 2447,
+    "sourceUrls": [
+      "https://www.deepseek.com/harness",
+      "https://www.deepseek.com/download/",
+      "https://www.deepseek.com/harness/privacy/",
+      "https://github.com/deepseek-ai/deepseek-harness",
+      "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/index.zh.md",
+      "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/providers.zh.md",
+      "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/cli-help.zh.md"
+    ],
+    "images": [
+      {
+        "file": "/guides/deepseek-harness-guide/01-homepage.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 428571
+      },
+      {
+        "file": "/guides/deepseek-harness-guide/02-download.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 186382
+      },
+      {
+        "file": "/guides/deepseek-harness-guide/03-github.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 75562
+      },
+      {
+        "file": "/guides/deepseek-harness-guide/04-models-page.png",
+        "width": 1600,
+        "height": 850,
+        "bytes": 80042
+      },
+      {
+        "file": "/guides/deepseek-harness-guide/05-custom-model.png",
+        "width": 1128,
+        "height": 1390,
+        "bytes": 129438
+      },
+      {
+        "file": "/guides/deepseek-harness-guide/06-desktop.webp",
+        "width": 1066,
+        "height": 720,
+        "bytes": 37670
+      }
+    ]
+  },
+  {
+    "slug": "jimeng-guide",
+    "hanChars": 2136,
+    "sourceUrls": [
+      "https://jimeng.jianying.com/",
+      "https://jimeng.jianying.com/ai-tool/home",
+      "https://jimeng.jianying.com/tools/seedance-2-5",
+      "https://lf9-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/vco/17620dba-f821-4a18-85f9-b8b11f73304a.html",
+      "https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/dreamina/b966ce40-d931-4397-8def-38fe5d03c729.html",
+      "https://lf9-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/vco/jimeng_model_register_information.html"
+    ],
+    "images": [
+      {
+        "file": "/guides/jimeng-guide/01-home.png",
+        "width": 1280,
+        "height": 900,
+        "bytes": 331808
+      },
+      {
+        "file": "/guides/jimeng-guide/02-ai-tool-home.png",
+        "width": 1280,
+        "height": 900,
+        "bytes": 301194
+      },
+      {
+        "file": "/guides/jimeng-guide/03-pricing.png",
+        "width": 1280,
+        "height": 940,
+        "bytes": 146369
+      },
+      {
+        "file": "/guides/jimeng-guide/04-seedance-2-5.png",
+        "width": 1280,
+        "height": 900,
+        "bytes": 423356
+      },
+      {
+        "file": "/guides/jimeng-guide/05-login.png",
+        "width": 1280,
+        "height": 900,
+        "bytes": 178175
+      },
+      {
+        "file": "/guides/jimeng-guide/06-image-tool.png",
+        "width": 900,
+        "height": 633,
+        "bytes": 370058
+      }
+    ]
+  },
+  {
+    "slug": "kling-guide",
+    "hanChars": 2113,
+    "sourceUrls": [
+      "https://klingai.com/cn/",
+      "https://klingai.com/docs/user-policy",
+      "https://klingai.com/docs/payment-policy",
+      "https://klingai.com/dev",
+      "https://klingai.com/document-api/api/video/3-0-turbo/image-to-video.md",
+      "https://docs.qingque.cn/d/home/eZQBGvsEtlGCz5-IhhQP3S-eM?identityId=2CYV3VL6EGS"
+    ],
+    "images": [
+      {
+        "file": "/guides/kling-guide/01-home.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 80094
+      },
+      {
+        "file": "/guides/kling-guide/02-membership.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 353883
+      },
+      {
+        "file": "/guides/kling-guide/03-help.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 58920
+      },
+      {
+        "file": "/guides/kling-guide/04-dev.png",
+        "width": 1280,
+        "height": 800,
+        "bytes": 194724
+      },
+      {
+        "file": "/guides/kling-guide/05-app.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 363594
+      },
+      {
+        "file": "/guides/kling-guide/06-dev-pricing.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 137187
+      }
+    ]
+  },
+  {
+    "slug": "trae-guide",
+    "hanChars": 2095,
+    "sourceUrls": [
+      "https://www.trae.cn/",
+      "https://www.trae.cn/download",
+      "https://www.trae.cn/pricing",
+      "https://docs.trae.cn/ide_get-started-with-trae",
+      "https://docs.trae.cn/ide_models",
+      "https://docs.trae.cn/ide_what-is-trae-code",
+      "https://docs.trae.cn/ide_plans-and-billing"
+    ],
+    "images": [
+      {
+        "file": "/guides/trae-guide/01-home.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 104912
+      },
+      {
+        "file": "/guides/trae-guide/02-download.png",
+        "width": 1440,
+        "height": 900,
+        "bytes": 141337
+      },
+      {
+        "file": "/guides/trae-guide/03-quick-start.png",
+        "width": 1440,
+        "height": 1150,
+        "bytes": 141968
+      },
+      {
+        "file": "/guides/trae-guide/04-pricing.png",
+        "width": 1440,
+        "height": 1150,
+        "bytes": 341218
+      },
+      {
+        "file": "/guides/trae-guide/05-models.png",
+        "width": 1440,
+        "height": 1150,
+        "bytes": 118755
+      },
+      {
+        "file": "/guides/trae-guide/06-cli.png",
+        "width": 1440,
+        "height": 1000,
+        "bytes": 89217
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+
+> agent-case-tool-guides@0.1.0 import:guides D:\agent项目助理\agent-case
+> node scripts/import-guides.mjs
+
+读取 5 个文件，通过 5 个，写入 5 条。
+
+
+EXIT=0

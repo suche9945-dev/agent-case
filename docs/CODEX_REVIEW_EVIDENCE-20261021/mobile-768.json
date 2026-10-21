@@ -1,0 +1,14 @@
+{
+  "open768": {
+    "expanded": "true",
+    "links": 5,
+    "visible": true,
+    "width": 768
+  },
+  "selected768": {
+    "h1": "DeepSeek Harness 上手：装好、接上模型、跑通第一个任务",
+    "panelVisible": false,
+    "path": "/guides/deepseek-harness-guide",
+    "width": 768
+  }
+}

@@ -15,15 +15,15 @@
 name: 可灵AI（Kling AI）
 vendor: kuaishou
 category: image-video
-form: 网页 + 桌面应用 + 移动 App + CLI
+form: 网页 + 桌面应用 + 移动 App + CLI + API
 tagline: 通过文字、图片及参考素材生成和编辑视频、图像，并用画布与 Agent 组织创作流程。
-intro: 可灵AI是快手的图像与视频创作产品，提供网页及独立 iPhone、iPad App，支持文生视频、图生视频、原生音频和参考素材编辑。它使用快手自家的可灵 V3 Pro、可灵 2.6 Pro 等视频模型；会员和灵感值决定使用权益，中国区 iOS 应用支持内购。
+intro: 可灵AI是快手的图像与视频创作产品，提供网页、iOS/Android App、macOS 与 Windows 桌面端、快手小程序，以及开放平台 API。视频模型线包括 Kling 4.0、可灵视频 3.0 / 3.0 Omni、可灵视频 O1 与可灵视频 2.6（音画同出）；会员和灵感值决定使用权益，中国区 iOS 应用支持内购。
 website: https://klingai.com
 openSource: false
 accessCN: true
 accessNote: 国内可用
 freeTier: 有免费版，登录即可使用；会员功能需订阅可灵会员
-priceNote: 黄金会员连续包月 ¥58/月（87 折，660 灵感值/月；首购首月 ¥46，年付 ¥554/年）
+priceNote: 黄金会员连续包月 ¥58/月（87 折，660 灵感值/月；新客 ¥5.99/7 天试用，试用后首月 ¥46）；铂金 ¥234/月、钻石 ¥586/月、黑金 ¥1149/月
 logoUrl: /icons/brands/kling.svg
 logoSourceUrl: https://github.com/lobehub/lobe-icons
 sourceUrls:
@@ -38,7 +38,7 @@ sourceUrls:
   - https://klingai.com
   - https://klingai.com/app/membership/membership-plan
   - https://ir.kuaishou.com/zh-hans/news-releases/news-release-details/keling30xiliemoxingquanmianshangxian/
-verifiedAt: 2026-10-11
+verifiedAt: 2026-10-21
 # T89：开始条件按 T89 事实卡转写（只用 primary=cn 版本）
 signup: 手机号或快手账号注册
 regionNote: 国内版为可灵AI（klingai.com）

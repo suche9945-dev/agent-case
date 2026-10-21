@@ -1,0 +1,100 @@
+[
+  {
+    "active": "它能做什么",
+    "expected": "它能做什么",
+    "scroll": 710.769287109375,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "它能做什么",
+    "expected": "它能做什么",
+    "scroll": 1421.53857421875,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "桌面版",
+    "expected": "桌面版",
+    "scroll": 2132.307861328125,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "桌面版",
+    "expected": "桌面版",
+    "scroll": 2843.0771484375,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "从源码跑（可跳过）",
+    "expected": "从源码跑（可跳过）",
+    "scroll": 3553.84619140625,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "第一步：拿 DeepSeek API 密钥",
+    "expected": "第一步：拿 DeepSeek API 密钥",
+    "scroll": 4264.61572265625,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "第二步：填进 Harness",
+    "expected": "第二步：填进 Harness",
+    "scroll": 4975.384765625,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "2. 先让它读，不让它写",
+    "expected": "2. 先让它读，不让它写",
+    "scroll": 5686.154296875,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "4. 验收",
+    "expected": "4. 验收",
+    "scroll": 6396.92333984375,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "接自定义网关 / 本地模型",
+    "expected": "接自定义网关 / 本地模型",
+    "scroll": 7107.6923828125,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "接自定义网关 / 本地模型",
+    "expected": "接自定义网关 / 本地模型",
+    "scroll": 7818.4619140625,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "接自定义网关 / 本地模型",
+    "expected": "接自定义网关 / 本地模型",
+    "scroll": 8529.2314453125,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "常见问题",
+    "expected": "常见问题",
+    "scroll": 9240,
+    "visible": true,
+    "width": 1440
+  },
+  {
+    "active": "延伸阅读",
+    "expected": "延伸阅读",
+    "scroll": 9950.76953125,
+    "visible": true,
+    "width": 1440
+  }
+]

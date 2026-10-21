@@ -1,0 +1,23 @@
+[
+  {
+    "route": "/guides",
+    "status": 200,
+    "empty": true,
+    "hasFixture": false,
+    "hasCursor": false
+  },
+  {
+    "route": "/guides/cursor-guide",
+    "status": 404,
+    "empty": false,
+    "hasFixture": false,
+    "hasCursor": false
+  },
+  {
+    "route": "/guides/codex-review-fixture",
+    "status": 404,
+    "empty": false,
+    "hasFixture": false,
+    "hasCursor": false
+  }
+]

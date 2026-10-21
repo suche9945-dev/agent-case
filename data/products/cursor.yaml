@@ -6,12 +6,13 @@ vendor: anysphere
 category: coding
 form: 独立 IDE + 桌面应用 + CLI + JetBrains 插件 + 网页 + 移动 App
 tagline: 面向代码开发的 AI 编辑器与智能体，可理解代码库、规划功能、修改代码、修复问题和审查变更。
-intro: Cursor 是 Anysphere 推出的 AI 开发工具，以独立编辑器和 Agent 为核心，提供终端及云端入口，能理解仓库、修改代码并验证。它自带套餐分 Pro、Pro+、Ultra 三档，含自家模型池与第三方模型池两条线，两个池按月度账单周期重置，第三方池按所选模型的 API 价扣除。
+intro: Cursor 是 Anysphere 推出的 AI 开发工具，以 agent-first 的桌面端、终端 CLI 与云端入口为核心，能理解仓库、修改代码并验证。现行订阅是 The X Subscription 体系，分 Free、Plus、Premium、Super、Ultra 五档，含一个按周刷新的用量池（Grok 与 Cursor 共用），第三方模型在 Premium 及以上按 API 挂牌价从预付余额扣。
 website: https://cursor.com
 openSource: false
 accessCN: false
-accessNote: 官方国内不可用
-freeTier: 有免费版（Hobby），无需信用卡即可登录使用；更多用量需订阅付费计划
+accessLabel: 官方未声明国内支持
+accessNote: 官方未声明中国大陆支持；部分模型受供应商地区限制可能不显示
+freeTier: 有免费档 Free，用量有限，可用 Agent、Chat 与 Tab 补全；Hobby 为旧档名称
 logoUrl: /icons/brands/cursor.svg
 logoSourceUrl: https://github.com/lobehub/lobe-icons
 sourceUrls:
@@ -31,10 +32,10 @@ sourceUrls:
   - https://cursor.com
   - https://cursor.com/docs/account/regions
   - https://cursor.com/help/security-and-privacy/regions
-verifiedAt: 2026-10-11
+verifiedAt: 2026-10-21
 # T89：开始条件按 T89 事实卡转写（只用 primary 版本）
-signup: 谷歌账号登录，或自行用邮箱注册
-overseasPhone: yes
+signup: 邮箱 + 密码注册（官方条款）；CLI 支持浏览器登录或 API Key
+overseasPhone: unspecified
 regionNote: 部分模型因所在区域限制不显示
 startFactsSourceUrl: https://cursor.com/cn/docs/account/regions
 startFactsVerifiedAt: 2026-10-10

@@ -1,0 +1,65 @@
+PASS  函数级：大小写不同的重复 slug 能识别
+PASS  函数级：不同 slug 不误报
+PASS  frontmatter：BOM + CRLF 能解析
+PASS  frontmatter：缺少结束标记报错
+PASS  frontmatter：第一行不是 --- 报错
+PASS  frontmatter：正文里的 --- 不会被当结束标记
+PASS  frontmatter：结束标记必须独占一行
+PASS  路径：拒绝 .. 目录穿越
+PASS  路径：拒绝 Windows 反斜杠穿越
+PASS  路径：拒绝同前缀目录
+PASS  路径：拒绝目录当文件
+PASS  路径：接受真实存在的文件
+PASS  路径：不存在的文件报错
+PASS  集成：校验失败返回 ok=false  → errors=15
+PASS  集成：失败时不写输出文件
+PASS  集成：真实 data/guides.json 未被改动
+PASS  报错内容：工具不存在
+PASS  报错内容：标题长度
+PASS  报错内容：摘要长度
+PASS  报错内容：日期格式
+PASS  报错内容：来源 URL 格式
+PASS  报错内容：来源数量不足
+PASS  报错内容：截图越界
+PASS  报错内容：截图不存在
+PASS  报错内容：缺少 frontmatter
+PASS  报错内容：YAML 解析失败
+PASS  报错内容：缺少必填字段
+PASS  集成：错误文件都被报到  → 10 个文件
+读取 3 个文件，通过 3 个，写入 3 条。
+PASS  集成：合法数据通过
+PASS  排序：updatedAt 倒序、同一天按 slug 升序  → a-new,m-same-day,z-old
+PASS  产物：以换行结尾
+读取 3 个文件，通过 3 个，写入 3 条。
+PASS  幂等：连跑两次逐字节一致
+PASS  幂等：没有留下 .tmp 半成品
+读取 0 个文件，通过 0 个，写入 0 条。
+PASS  空数据：写出 [] 且不报错
+PASS  收尾：真实 data/guides.json 仍未被改动
+PASS  收尾：临时目录已删除
+
+共 36 项，通过 36 项，失败 0 项
+
+content/guides/a-bad-tool.md:tool: data/products/ 里没有 not-a-real-tool
+content/guides/b-bad-title.md:title: 长度 2 字，要求 10–40 字（不含空白）
+content/guides/c-bad-summary.md:summary: 长度 3 字，要求 40–80 字（不含空白）
+content/guides/d-bad-date.md:updatedAt: 必须是 YYYY-MM-DD，收到：2026/10/20
+content/guides/e-bad-url.md:sourceUrls.0: 不是合法的 http(s) URL：ftp://a.com
+content/guides/e-bad-url.md:sourceUrls.1: 不是合法的 http(s) URL：not-a-url
+content/guides/f-bad-shot.md:screenshots: 路径越过了 public/ 目录边界
+content/guides/f-bad-shot.md:screenshots: public/guides/none.png 不存在
+content/guides/g-no-frontmatter.md:frontmatter: 第一行必须是独占一行的 ---（frontmatter 开始）
+content/guides/h-bad-yaml.md:frontmatter: YAML 解析失败：Flow sequence in block collection must be sufficiently indented and end with a ] at line 1, column 12:
+
+title: [未闭合
+           ^
+
+content/guides/i-missing-field.md:tool: 缺失或类型不对，应为 string
+content/guides/i-missing-field.md:summary: 缺失或类型不对，应为 string
+content/guides/i-missing-field.md:updatedAt: 缺失或类型不对，应为 string
+content/guides/i-missing-field.md:sourceUrls: 缺失或类型不对，应为 string[]
+content/guides/j-few-sources.md:sourceUrls: 至少给 3 条
+
+导入中止：15 处错误，data/guides.json 未改动。
+
+EXIT=0

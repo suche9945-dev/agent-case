@@ -33,6 +33,8 @@ const productSchema = z.object({
   openSource: z.boolean().default(false),
   /** 官方是否在中国大陆可用（数据来源见各文件里的 sourceUrls） */
   accessCN: z.boolean().default(false),
+  /** 地区标签的短文案；留空时按 accessCN 取「国内可用 / 官方国内不可用」 */
+  accessLabel: z.string().default(''),
   accessNote: z.string().default(''),
   freeTier: z.string().default(''),
   /** 图标路径，指向 public/icons/brands/；少数工具没有图标，是 null */

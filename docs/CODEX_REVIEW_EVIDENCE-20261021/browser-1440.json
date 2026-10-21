@@ -1,0 +1,789 @@
+[
+  {
+    "client": 1425,
+    "disabled": 17,
+    "h1": "工具指南",
+    "images": [],
+    "pager": [],
+    "path": "/guides",
+    "scroll": 1425,
+    "sidebarLinks": 5,
+    "title": "工具指南 · 天工开物 Kaiwu AI",
+    "toc": [
+      {
+        "href": "#how-to-read",
+        "target": true,
+        "text": "怎么看这份指南"
+      },
+      {
+        "href": "#all-guides",
+        "target": true,
+        "text": "全部教程"
+      },
+      {
+        "href": "#all-tools",
+        "target": true,
+        "text": "全部工具"
+      },
+      {
+        "href": "#start-here",
+        "target": true,
+        "text": "新手先读这三篇"
+      }
+    ],
+    "tocVisible": true,
+    "width": 1440
+  },
+  {
+    "client": 1425,
+    "current": "Cursor",
+    "disabled": 17,
+    "h1": "Cursor 上手教程：装好、登录、跑通第一个任务",
+    "images": [
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/icons/brands/cursor.svg"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/cursor-guide/01-download.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/cursor-guide/02-quickstart.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/cursor-guide/05-cli.png"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/cursor-guide/06-agent.png"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/cursor-guide/04-api-keys.png"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/cursor-guide/03-pricing.png"
+      }
+    ],
+    "pager": [
+      {
+        "href": "/guides/deepseek-harness-guide",
+        "text": "下一篇 →DeepSeek Harness 上手：装好、接上模型、跑通第一个任务"
+      }
+    ],
+    "path": "/guides/cursor-guide",
+    "scroll": 1425,
+    "sidebarLinks": 5,
+    "title": "Cursor 上手教程：装好、登录、跑通第一个任务 · 工具指南 · 天工开物",
+    "toc": [
+      {
+        "href": "#它能做什么",
+        "target": true,
+        "text": "它能做什么"
+      },
+      {
+        "href": "#国内怎么用",
+        "target": true,
+        "text": "国内怎么用"
+      },
+      {
+        "href": "#安装",
+        "target": true,
+        "text": "安装"
+      },
+      {
+        "href": "#桌面端",
+        "target": true,
+        "text": "桌面端"
+      },
+      {
+        "href": "#命令行",
+        "target": true,
+        "text": "命令行"
+      },
+      {
+        "href": "#网页端",
+        "target": true,
+        "text": "网页端"
+      },
+      {
+        "href": "#登录与开通",
+        "target": true,
+        "text": "登录与开通"
+      },
+      {
+        "href": "#跑通第一个任务",
+        "target": true,
+        "text": "跑通第一个任务"
+      },
+      {
+        "href": "#1-打开一个文件夹",
+        "target": true,
+        "text": "1. 打开一个文件夹"
+      },
+      {
+        "href": "#2-让它解释代码",
+        "target": true,
+        "text": "2. 让它解释代码"
+      },
+      {
+        "href": "#3-让它改一处",
+        "target": true,
+        "text": "3. 让它改一处"
+      },
+      {
+        "href": "#4-验收",
+        "target": true,
+        "text": "4. 验收"
+      },
+      {
+        "href": "#5-大改用-plan-mode",
+        "target": true,
+        "text": "5. 大改用 Plan Mode"
+      },
+      {
+        "href": "#接入自己的模型-api-key",
+        "target": true,
+        "text": "接入自己的模型 / API Key"
+      },
+      {
+        "href": "#怎么付费",
+        "target": true,
+        "text": "怎么付费"
+      },
+      {
+        "href": "#常见问题",
+        "target": true,
+        "text": "常见问题"
+      },
+      {
+        "href": "#延伸阅读",
+        "target": true,
+        "text": "延伸阅读"
+      }
+    ],
+    "tocVisible": true,
+    "width": 1440
+  },
+  {
+    "client": 1425,
+    "current": "DeepSeek Harness",
+    "disabled": 17,
+    "h1": "DeepSeek Harness 上手：装好、接上模型、跑通第一个任务",
+    "images": [
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/icons/brands/deepseek-harness.svg"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/deepseek-harness-guide/01-homepage.png"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/deepseek-harness-guide/02-download.png"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/deepseek-harness-guide/03-github.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/deepseek-harness-guide/04-models-page.png"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/deepseek-harness-guide/06-desktop.webp"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/deepseek-harness-guide/05-custom-model.png"
+      }
+    ],
+    "pager": [
+      {
+        "href": "/guides/cursor-guide",
+        "text": "← 上一篇Cursor 上手教程：装好、登录、跑通第一个任务"
+      },
+      {
+        "href": "/guides/jimeng-guide",
+        "text": "下一篇 →即梦AI 新手教程：从登录到生成第一张图和第一段视频"
+      }
+    ],
+    "path": "/guides/deepseek-harness-guide",
+    "scroll": 1425,
+    "sidebarLinks": 5,
+    "title": "DeepSeek Harness 上手：装好、接上模型、跑通第一个任务 · 工具指南 · 天工开物",
+    "toc": [
+      {
+        "href": "#它能做什么",
+        "target": true,
+        "text": "它能做什么"
+      },
+      {
+        "href": "#国内怎么用",
+        "target": true,
+        "text": "国内怎么用"
+      },
+      {
+        "href": "#安装",
+        "target": true,
+        "text": "安装"
+      },
+      {
+        "href": "#桌面版",
+        "target": true,
+        "text": "桌面版"
+      },
+      {
+        "href": "#命令行版",
+        "target": true,
+        "text": "命令行版"
+      },
+      {
+        "href": "#从源码跑-可跳过",
+        "target": true,
+        "text": "从源码跑（可跳过）"
+      },
+      {
+        "href": "#登录与开通",
+        "target": true,
+        "text": "登录与开通"
+      },
+      {
+        "href": "#第一步-拿-deepseek-api-密钥",
+        "target": true,
+        "text": "第一步：拿 DeepSeek API 密钥"
+      },
+      {
+        "href": "#第二步-填进-harness",
+        "target": true,
+        "text": "第二步：填进 Harness"
+      },
+      {
+        "href": "#跑通第一个任务",
+        "target": true,
+        "text": "跑通第一个任务"
+      },
+      {
+        "href": "#1-选工作区",
+        "target": true,
+        "text": "1. 选工作区"
+      },
+      {
+        "href": "#2-先让它读-不让它写",
+        "target": true,
+        "text": "2. 先让它读，不让它写"
+      },
+      {
+        "href": "#3-让它改一个文件",
+        "target": true,
+        "text": "3. 让它改一个文件"
+      },
+      {
+        "href": "#4-验收",
+        "target": true,
+        "text": "4. 验收"
+      },
+      {
+        "href": "#接入自己的模型-api-key",
+        "target": true,
+        "text": "接入自己的模型 / API Key"
+      },
+      {
+        "href": "#用目录里的第三方厂商",
+        "target": true,
+        "text": "用目录里的第三方厂商"
+      },
+      {
+        "href": "#接自定义网关-本地模型",
+        "target": true,
+        "text": "接自定义网关 / 本地模型"
+      },
+      {
+        "href": "#怎么付费",
+        "target": true,
+        "text": "怎么付费"
+      },
+      {
+        "href": "#常见问题",
+        "target": true,
+        "text": "常见问题"
+      },
+      {
+        "href": "#延伸阅读",
+        "target": true,
+        "text": "延伸阅读"
+      }
+    ],
+    "tocVisible": true,
+    "width": 1440
+  },
+  {
+    "client": 1425,
+    "current": "TRAE",
+    "disabled": 17,
+    "h1": "TRAE 国内版上手：下载、登录、跑通第一个项目",
+    "images": [
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/icons/brands/trae.svg"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/trae-guide/01-home.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/trae-guide/02-download.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/trae-guide/06-cli.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/trae-guide/03-quick-start.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/trae-guide/04-pricing.png"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/trae-guide/05-models.png"
+      }
+    ],
+    "pager": [
+      {
+        "href": "/guides/kling-guide",
+        "text": "← 上一篇可灵AI 上手：注册、文生视频、图生视频各跑一遍"
+      }
+    ],
+    "path": "/guides/trae-guide",
+    "scroll": 1425,
+    "sidebarLinks": 5,
+    "title": "TRAE 国内版上手：下载、登录、跑通第一个项目 · 工具指南 · 天工开物",
+    "toc": [
+      {
+        "href": "#它能做什么",
+        "target": true,
+        "text": "它能做什么"
+      },
+      {
+        "href": "#国内怎么用",
+        "target": true,
+        "text": "国内怎么用"
+      },
+      {
+        "href": "#安装",
+        "target": true,
+        "text": "安装"
+      },
+      {
+        "href": "#桌面端-推荐新手",
+        "target": true,
+        "text": "桌面端（推荐新手）"
+      },
+      {
+        "href": "#网页端",
+        "target": true,
+        "text": "网页端"
+      },
+      {
+        "href": "#编辑器插件",
+        "target": true,
+        "text": "编辑器插件"
+      },
+      {
+        "href": "#命令行",
+        "target": true,
+        "text": "命令行"
+      },
+      {
+        "href": "#登录与开通",
+        "target": true,
+        "text": "登录与开通"
+      },
+      {
+        "href": "#跑通第一个任务",
+        "target": true,
+        "text": "跑通第一个任务"
+      },
+      {
+        "href": "#1-建一个空文件夹",
+        "target": true,
+        "text": "1. 建一个空文件夹"
+      },
+      {
+        "href": "#2-用-trae-打开这个文件夹",
+        "target": true,
+        "text": "2. 用 TRAE 打开这个文件夹"
+      },
+      {
+        "href": "#3-切到-agent-窗口下指令",
+        "target": true,
+        "text": "3. 切到 Agent 窗口下指令"
+      },
+      {
+        "href": "#4-看它写了什么",
+        "target": true,
+        "text": "4. 看它写了什么"
+      },
+      {
+        "href": "#5-验收",
+        "target": true,
+        "text": "5. 验收"
+      },
+      {
+        "href": "#接入自己的模型-api-key",
+        "target": true,
+        "text": "接入自己的模型 / API Key"
+      },
+      {
+        "href": "#怎么付费",
+        "target": true,
+        "text": "怎么付费"
+      },
+      {
+        "href": "#常见问题",
+        "target": true,
+        "text": "常见问题"
+      },
+      {
+        "href": "#延伸阅读",
+        "target": true,
+        "text": "延伸阅读"
+      }
+    ],
+    "tocVisible": true,
+    "width": 1440
+  },
+  {
+    "client": 1425,
+    "current": "即梦AI",
+    "disabled": 17,
+    "h1": "即梦AI 新手教程：从登录到生成第一张图和第一段视频",
+    "images": [
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/icons/brands/jimeng.svg"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/jimeng-guide/01-home.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/jimeng-guide/02-ai-tool-home.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/jimeng-guide/05-login.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/jimeng-guide/06-image-tool.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/jimeng-guide/04-seedance-2-5.png"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/jimeng-guide/03-pricing.png"
+      }
+    ],
+    "pager": [
+      {
+        "href": "/guides/deepseek-harness-guide",
+        "text": "← 上一篇DeepSeek Harness 上手：装好、接上模型、跑通第一个任务"
+      },
+      {
+        "href": "/guides/kling-guide",
+        "text": "下一篇 →可灵AI 上手：注册、文生视频、图生视频各跑一遍"
+      }
+    ],
+    "path": "/guides/jimeng-guide",
+    "scroll": 1425,
+    "sidebarLinks": 5,
+    "title": "即梦AI 新手教程：从登录到生成第一张图和第一段视频 · 工具指南 · 天工开物",
+    "toc": [
+      {
+        "href": "#它能做什么",
+        "target": true,
+        "text": "它能做什么"
+      },
+      {
+        "href": "#国内怎么用",
+        "target": true,
+        "text": "国内怎么用"
+      },
+      {
+        "href": "#安装",
+        "target": true,
+        "text": "安装"
+      },
+      {
+        "href": "#网页版-推荐",
+        "target": true,
+        "text": "网页版（推荐）"
+      },
+      {
+        "href": "#手机-app",
+        "target": true,
+        "text": "手机 App"
+      },
+      {
+        "href": "#没有桌面客户端",
+        "target": true,
+        "text": "没有桌面客户端"
+      },
+      {
+        "href": "#登录与开通",
+        "target": true,
+        "text": "登录与开通"
+      },
+      {
+        "href": "#跑通第一个任务",
+        "target": true,
+        "text": "跑通第一个任务"
+      },
+      {
+        "href": "#1-进图片生成",
+        "target": true,
+        "text": "1. 进图片生成"
+      },
+      {
+        "href": "#2-写提示词",
+        "target": true,
+        "text": "2. 写提示词"
+      },
+      {
+        "href": "#3-设参数",
+        "target": true,
+        "text": "3. 设参数"
+      },
+      {
+        "href": "#4-生成与验收",
+        "target": true,
+        "text": "4. 生成与验收"
+      },
+      {
+        "href": "#5-把图变成视频",
+        "target": true,
+        "text": "5. 把图变成视频"
+      },
+      {
+        "href": "#6-下载",
+        "target": true,
+        "text": "6. 下载"
+      },
+      {
+        "href": "#接入自己的模型-api-key",
+        "target": true,
+        "text": "接入自己的模型 / API Key"
+      },
+      {
+        "href": "#怎么付费",
+        "target": true,
+        "text": "怎么付费"
+      },
+      {
+        "href": "#常见问题",
+        "target": true,
+        "text": "常见问题"
+      },
+      {
+        "href": "#延伸阅读",
+        "target": true,
+        "text": "延伸阅读"
+      }
+    ],
+    "tocVisible": true,
+    "width": 1440
+  },
+  {
+    "client": 1425,
+    "current": "可灵AI（Kling AI）",
+    "disabled": 17,
+    "h1": "可灵AI 上手：注册、文生视频、图生视频各跑一遍",
+    "images": [
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/icons/brands/kling.svg"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/kling-guide/03-help.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/kling-guide/01-home.png"
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "src": "/guides/kling-guide/05-app.png"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/kling-guide/04-dev.png"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/kling-guide/06-dev-pricing.png"
+      },
+      {
+        "alt": true,
+        "loaded": false,
+        "src": "/guides/kling-guide/02-membership.png"
+      }
+    ],
+    "pager": [
+      {
+        "href": "/guides/jimeng-guide",
+        "text": "← 上一篇即梦AI 新手教程：从登录到生成第一张图和第一段视频"
+      },
+      {
+        "href": "/guides/trae-guide",
+        "text": "下一篇 →TRAE 国内版上手：下载、登录、跑通第一个项目"
+      }
+    ],
+    "path": "/guides/kling-guide",
+    "scroll": 1425,
+    "sidebarLinks": 5,
+    "title": "可灵AI 上手：注册、文生视频、图生视频各跑一遍 · 工具指南 · 天工开物",
+    "toc": [
+      {
+        "href": "#它能做什么",
+        "target": true,
+        "text": "它能做什么"
+      },
+      {
+        "href": "#国内怎么用",
+        "target": true,
+        "text": "国内怎么用"
+      },
+      {
+        "href": "#安装",
+        "target": true,
+        "text": "安装"
+      },
+      {
+        "href": "#网页版-最省事",
+        "target": true,
+        "text": "网页版（最省事）"
+      },
+      {
+        "href": "#手机-app",
+        "target": true,
+        "text": "手机 App"
+      },
+      {
+        "href": "#桌面端",
+        "target": true,
+        "text": "桌面端"
+      },
+      {
+        "href": "#开发者形态",
+        "target": true,
+        "text": "开发者形态"
+      },
+      {
+        "href": "#登录与开通",
+        "target": true,
+        "text": "登录与开通"
+      },
+      {
+        "href": "#跑通第一个任务",
+        "target": true,
+        "text": "跑通第一个任务"
+      },
+      {
+        "href": "#1-进视频生成",
+        "target": true,
+        "text": "1. 进视频生成"
+      },
+      {
+        "href": "#2-写提示词",
+        "target": true,
+        "text": "2. 写提示词"
+      },
+      {
+        "href": "#3-设参数",
+        "target": true,
+        "text": "3. 设参数"
+      },
+      {
+        "href": "#4-生成与验收",
+        "target": true,
+        "text": "4. 生成与验收"
+      },
+      {
+        "href": "#5-图生视频",
+        "target": true,
+        "text": "5. 图生视频"
+      },
+      {
+        "href": "#接入自己的模型-api-key",
+        "target": true,
+        "text": "接入自己的模型 / API Key"
+      },
+      {
+        "href": "#怎么付费",
+        "target": true,
+        "text": "怎么付费"
+      },
+      {
+        "href": "#常见问题",
+        "target": true,
+        "text": "常见问题"
+      },
+      {
+        "href": "#延伸阅读",
+        "target": true,
+        "text": "延伸阅读"
+      }
+    ],
+    "tocVisible": true,
+    "width": 1440
+  }
+]

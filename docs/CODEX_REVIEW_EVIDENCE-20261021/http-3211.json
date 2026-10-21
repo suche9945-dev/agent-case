@@ -1,0 +1,230 @@
+[
+  {
+    "url": "/",
+    "status": 307,
+    "type": "text/html; charset=utf-8",
+    "size": 8324
+  },
+  {
+    "url": "/guides",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "size": 48895
+  },
+  {
+    "url": "/guides/no-such-codex-review",
+    "status": 404,
+    "type": "text/html; charset=utf-8",
+    "size": 10733
+  },
+  {
+    "url": "/guides/cursor-guide",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "size": 71119
+  },
+  {
+    "url": "/guides/deepseek-harness-guide",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "size": 77720
+  },
+  {
+    "url": "/guides/jimeng-guide",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "size": 72983
+  },
+  {
+    "url": "/guides/kling-guide",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "size": 71331
+  },
+  {
+    "url": "/guides/trae-guide",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "size": 72079
+  },
+  {
+    "url": "/guides/cursor-guide/01-download.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 200807
+  },
+  {
+    "url": "/guides/cursor-guide/02-quickstart.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 120092
+  },
+  {
+    "url": "/guides/cursor-guide/03-pricing.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 91633
+  },
+  {
+    "url": "/guides/cursor-guide/04-api-keys.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 133957
+  },
+  {
+    "url": "/guides/cursor-guide/05-cli.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 110835
+  },
+  {
+    "url": "/guides/cursor-guide/06-agent.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 348031
+  },
+  {
+    "url": "/guides/deepseek-harness-guide/01-homepage.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 428571
+  },
+  {
+    "url": "/guides/deepseek-harness-guide/02-download.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 186382
+  },
+  {
+    "url": "/guides/deepseek-harness-guide/03-github.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 75562
+  },
+  {
+    "url": "/guides/deepseek-harness-guide/04-models-page.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 80042
+  },
+  {
+    "url": "/guides/deepseek-harness-guide/05-custom-model.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 129438
+  },
+  {
+    "url": "/guides/deepseek-harness-guide/06-desktop.webp",
+    "status": 200,
+    "type": "image/webp",
+    "size": 37670
+  },
+  {
+    "url": "/guides/jimeng-guide/01-home.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 331808
+  },
+  {
+    "url": "/guides/jimeng-guide/02-ai-tool-home.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 301194
+  },
+  {
+    "url": "/guides/jimeng-guide/03-pricing.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 146369
+  },
+  {
+    "url": "/guides/jimeng-guide/04-seedance-2-5.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 423356
+  },
+  {
+    "url": "/guides/jimeng-guide/05-login.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 178175
+  },
+  {
+    "url": "/guides/jimeng-guide/06-image-tool.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 370058
+  },
+  {
+    "url": "/guides/kling-guide/01-home.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 80094
+  },
+  {
+    "url": "/guides/kling-guide/02-membership.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 353883
+  },
+  {
+    "url": "/guides/kling-guide/03-help.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 58920
+  },
+  {
+    "url": "/guides/kling-guide/04-dev.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 194724
+  },
+  {
+    "url": "/guides/kling-guide/05-app.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 363594
+  },
+  {
+    "url": "/guides/kling-guide/06-dev-pricing.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 137187
+  },
+  {
+    "url": "/guides/trae-guide/01-home.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 104912
+  },
+  {
+    "url": "/guides/trae-guide/02-download.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 141337
+  },
+  {
+    "url": "/guides/trae-guide/03-quick-start.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 141968
+  },
+  {
+    "url": "/guides/trae-guide/04-pricing.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 341218
+  },
+  {
+    "url": "/guides/trae-guide/05-models.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 118755
+  },
+  {
+    "url": "/guides/trae-guide/06-cli.png",
+    "status": 200,
+    "type": "image/png",
+    "size": 89217
+  }
+]

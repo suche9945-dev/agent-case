@@ -1,0 +1,24 @@
+PASS  数量：只抽到 8 个真标题  → 8 个
+PASS  同名标题去重
+PASS  三级标题 level=3
+PASS  去掉链接与强调取可见文字
+PASS  去掉行内代码标记
+PASS  中文标点折叠成连字符  → 中文标题-标点-空格-与-书名号
+PASS  去掉结尾 ##
+PASS  围栏内的假标题不进入目录
+PASS  围栏后的真标题仍被抽到
+PASS  未闭合围栏：之后的内容不再当标题
+PASS  空标题不产生锚点
+PASS  slug 为空时兜底
+PASS  图片 alt 参与标题文字
+PASS  HTML 实体解码
+PASS  全部 id 唯一
+
+共 15 项，通过 15 项，失败 0 项
+
+(node:32304) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/agent%E9%A1%B9%E7%9B%AE%E5%8A%A9%E7%90%86/agent-case/src/lib/headings.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\D:\agent项目助理\agent-case\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+EXIT=0

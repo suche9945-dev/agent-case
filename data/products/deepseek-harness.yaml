@@ -17,6 +17,8 @@ logoUrl: /icons/brands/deepseek-harness.svg
 logoSourceUrl: https://www.deepseek.com/harness/favicon.svg
 sourceUrls:
   - https://www.deepseek.com/en/harness
+  - https://www.deepseek.com/download/
+  - https://www.deepseek.com/harness/privacy/
   - https://github.com/deepseek-ai/deepseek-harness
   - https://github.com/deepseek-ai/deepseek-harness/blob/master/apps/cli/README.md
   - https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/index.md
@@ -25,7 +27,7 @@ sourceUrls:
   - https://api-docs.deepseek.com/quick_start/pricing
   - https://www.deepseek.com/harness
   - https://www.deepseek.com/harness/
-verifiedAt: 2026-10-11
+verifiedAt: 2026-10-21
 # T89：开始条件按 T89 事实卡转写（只用 primary 版本）
 signup: 手机号注册 DeepSeek 账号；自定义模型免注册
 overseasPhone: unspecified

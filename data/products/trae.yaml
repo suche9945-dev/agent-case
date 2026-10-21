@@ -15,8 +15,8 @@ intro: TRAE 是字节跳动的 AI 开发工具，国内新版整合 Agent 与 ID
 website: https://www.trae.cn
 openSource: false
 accessCN: true
-accessNote: 国内可用；国际版网络限制，需代理
-freeTier: 有免费版，可免费登录使用
+accessNote: 国内可用（TRAE CN）；国际版是独立站点，官方未说明账号互通
+freeTier: 免费 Free：每月 500 积分，支持 2 个云端任务并发；新用户注册另送 4000 积分
 # 快照【官网与下载入口】：中国版官网 https://www.trae.cn/ ，全球官网 https://www.trae.ai/
 # 国际版的免费档在快照【免费与试用】里没有依据（只写了国内版），这里留空，见交付报告
 editions:
@@ -24,11 +24,12 @@ editions:
     label: 国内版
     website: https://www.trae.cn
     accessLabel: 国内可用
-    freeTier: 有免费版，可免费登录使用
+    freeTier: 免费 Free：每月 500 积分，2 个云端任务并发
   - edition: global
     label: 国际版
     website: https://www.trae.ai
-    accessLabel: 国际版网络限制，需代理
+    accessLabel: 国际版（trae.ai，独立站点）
+    freeTier: 免费 Free：Auto 模式、有限用量、2 个云端任务并发
 logoUrl: /icons/brands/trae.svg
 logoSourceUrl: https://github.com/lobehub/lobe-icons
 sourceUrls:
@@ -45,7 +46,7 @@ sourceUrls:
   - https://docs.trae.cn/ide_plans-and-billing
   - https://www.trae.cn
   - https://docs.trae.cn/work_traework-to-traecode-data-migration
-verifiedAt: 2026-10-11
+verifiedAt: 2026-10-21
 # T89：开始条件按 T89 事实卡转写（只用 primary=cn 版本）
 # 注册方式、海外手机号、实名三行在卡里没有可用的官方依据（单一来源 / 官方页没查全），按映射规则留空，见交付报告
 regionNote: 国内版为 TRAE CN（trae.cn）

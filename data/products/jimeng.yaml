@@ -15,9 +15,9 @@
 name: 即梦AI
 vendor: bytedance
 category: image-video
-form: 网页 + 移动 App
+form: 网页 + 移动 App + API
 tagline: 用文字或图片生成视频、绘画，并在智能画布中局部重绘、扩图和组合素材。
-intro: 即梦AI是字节跳动旗下的图像与视频创作工具，提供网页和独立 iPhone App，可用中文提示词生成素材，并通过智能画布完成局部重绘、扩图和多图融合。它使用字节自家的 Seedream 5.0 Pro 生图与 Seedance 2.5 生视频模型；会员与积分决定生成通道和模型权益。
+intro: 即梦AI是字节跳动旗下的图像与视频创作工具，提供网页与移动 App，可用中文提示词生成素材，并通过智能画布完成局部重绘、扩图和多图融合。官方页面在售的模型线包括 Seedance 2.5 生视频与「图片 4.0」，会员与积分决定生成通道和模型权益。
 # 图标：T58 起用 lobe-icons 的单色小图标（用户 2026-10-08 看过各品牌官方规则后决定
 #   先上线使用、合规风险自担），不再逐家取官方素材；T57 记的条款依据留在
 #   本机 docs/交接/logo-图标方案.md 与 T57 的审核意见里。
@@ -25,8 +25,8 @@ website: https://jimeng.jianying.com
 openSource: false
 accessCN: true
 accessNote: 国内可用
-freeTier: 有免费版，登录即可使用；会员功能需订阅即梦会员
-priceNote: 基础会员连续包月 ¥69/月（725 积分/月）；标准会员连续包月 ¥199/月（2,210 积分/月）
+freeTier: 有免费额度：游客模式可用部分功能，AI 生成需登录并完成实名；免费额度以积分发放，每日赠送当日有效且非固定权益
+priceNote: 基础会员连续包月 ¥69/月（725 积分/月）；标准会员连续包月 ¥199/月（2,210 积分/月）；页面常以年付与限时折扣展示
 logoUrl: /icons/brands/jimeng.svg
 logoSourceUrl: https://github.com/lobehub/lobe-icons
 sourceUrls:
@@ -37,9 +37,9 @@ sourceUrls:
   - https://jimeng.jianying.com/ai-tool/image/generate?need_login=true
   - https://jimeng.jianying.com/ai-tool/home
   - https://jimeng.jianying.com/tools/seedance-2-5
-verifiedAt: 2026-10-11
+verifiedAt: 2026-10-21
 # T89：开始条件按 T89 事实卡转写（只用 primary=cn 版本）
-signup: 剪映账号或抖音账号注册，需绑定手机号
+signup: 手机号（注册剪映账号）、抖音账号、剪映账号；iOS 端另有 Apple ID
 overseasPhone: unspecified
 realName: yes
 regionNote: 国内版为即梦AI（jimeng.jianying.com）
